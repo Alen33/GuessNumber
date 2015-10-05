@@ -1,0 +1,11 @@
+x = 22
+
+x = raw_input("Try your guess:")
+
+if x == "22":
+    print("Congratulations! You did it...")
+while x != "22":
+    print("Not your best shot, try harder...")
+    x = raw_input("Enter a number again:")
+    if x == "22":
+        print("Finally, you made it! :)")
